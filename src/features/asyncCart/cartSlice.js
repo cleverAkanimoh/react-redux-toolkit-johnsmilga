@@ -17,7 +17,7 @@ export const getCartItems = createAsyncThunk(
   'cart/getCartItems',
   async (name, thunkAPI) => {
     try {
-      // console.log(name);
+      console.log(name);
       // console.log(thunkAPI);
       // console.log(thunkAPI.getState());
       // thunkAPI.dispatch(openModal());
